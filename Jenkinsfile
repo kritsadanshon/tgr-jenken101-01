@@ -3,7 +3,7 @@ pipeline {
         registry = "dockertgr/kritsadanshons-app"
         registryCredential = 'dockertgr'
         dockerImage = ''
-        dockerHost = '35.224.76.111:2375'
+        dockerHost = '10.128.0.3:2375'
     }
     agent any
     stages {
