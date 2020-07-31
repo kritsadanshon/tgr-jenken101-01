@@ -102,7 +102,7 @@ class App extends React.Component {
     return (
       <div className={classes.root}>
         <CssBaseline />
-        <AppBar color="primary">
+        <AppBar color="secondary">
           <Toolbar>
             <Typography variant="h6" className={classes.title}>
               Thailand COVID-19 Dashboard
